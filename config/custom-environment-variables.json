@@ -1,0 +1,17 @@
+{
+  "server": {
+    "redis": {
+      "port": "REDIS_PORT",
+      "host": "REDIS_HOST",
+      "password": "REDIS_PASSWORD"
+    }
+  },
+  "auth": {
+    "secret": "APP_AUTH_SECRET"
+  },
+  "services": {
+    "graphql": {
+      "endpoint": "GRAPHQL_ENDPOINT"
+    }
+  }
+}
